@@ -1,0 +1,7 @@
+no=123456789
+total=0
+while no>0:
+  re=no%10
+  no=no//10
+  total=total+re
+  print(total)
