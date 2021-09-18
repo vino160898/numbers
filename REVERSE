@@ -1,0 +1,7 @@
+no =123456
+re=0
+while no>0:
+	re=(re*1000)+no%1000
+	no=no//1000
+else:
+	print(re)
